@@ -67,10 +67,10 @@ preset_keyboards:
     ascii_mode: 0
     height: 46
     height_land: 34
-    horizontal_gap: 6
-    vertical_gap: 10
-    vertical_gap_land: 4
-    round_corner: 18
+    horizontal_gap: 2
+    vertical_gap: 6
+    vertical_gap_land: 3
+    round_corner: 8
     key_text_offset_x: 0
     key_text_offset_y: 4
     key_press_text_offset_x: 0
@@ -83,8 +83,8 @@ preset_keyboards:
     key_down_text_offset_y: -1
     key_down_press_text_offset_x: 0
     key_down_press_text_offset_y: 0
-    preview_round_corner: 18
-    long_preview_round_corner: 18
+    preview_round_corner: 8
+    long_preview_round_corner: 8
     long_preview_padding: 0
     long_preview_margin: 4
     preview: true
@@ -97,16 +97,16 @@ preset_keyboards:
       ] }
     keys:
     # 1
-    - { click: q, label: "Q", swipe_up: "%", swipe_down: "1", long_click: [ "%", commit_q, commit_Q ] }
-    - { click: w, label: "W", swipe_up: "+", swipe_down: "2", long_click: [ commit_w, "+", commit_W ] }
-    - { click: e, label: "E", swipe_up: "*", swipe_down: "3", long_click: [ commit_e, "*", commit_E ] }
-    - { click: r, label: "R", swipe_up: "&", swipe_down: "4", long_click: [ commit_r, "&", commit_R ] }
-    - { click: t, label: "T", swipe_up: "±", swipe_down: "5", long_click: [ commit_t, "±", commit_T ] }
-    - { click: y, label: "Y", swipe_up: "×", swipe_down: "6", long_click: [ commit_y, "×", commit_Y ] }
-    - { click: u, label: "U", swipe_up: '\', swipe_down: "7", long_click: [ commit_u, '\', commit_U ] }
-    - { click: i, label: "I", swipe_up: "¥", swipe_down: "8", long_click: [ commit_i, "¥", commit_I ] }
-    - { click: o, label: "O", swipe_up: "°", swipe_down: "9", long_click: [ commit_o, "°", commit_O ] }
-    - { click: p, label: "P", swipe_up: "$", swipe_down: "0", long_click: [ commit_p, commit_P, "$" ] }
+    - { click: q, label: "Q", swipe_up: "1", swipe_down: "%", long_click: [ "1", commit_q, commit_Q ] }
+    - { click: w, label: "W", swipe_up: "2", swipe_down: "+", long_click: [ commit_w, "2", commit_W ] }
+    - { click: e, label: "E", swipe_up: "3", swipe_down: "*", long_click: [ commit_e, "3", commit_E ] }
+    - { click: r, label: "R", swipe_up: "4", swipe_down: "&", long_click: [ commit_r, "4", commit_R ] }
+    - { click: t, label: "T", swipe_up: "5", swipe_down: "±", long_click: [ commit_t, "5", commit_T ] }
+    - { click: y, label: "Y", swipe_up: "6", swipe_down: "×", long_click: [ commit_y, "6", commit_Y ] }
+    - { click: u, label: "U", swipe_up: "7", swipe_down: '\', long_click: [ commit_u, "7", commit_U ] }
+    - { click: i, label: "I", swipe_up: "8", swipe_down: "¥", long_click: [ commit_i, "8", commit_I ] }
+    - { click: o, label: "O", swipe_up: "9", swipe_down: "°", long_click: [ commit_o, "9", commit_O ] }
+    - { click: p, label: "P", swipe_up: "0", swipe_down: "$", long_click: [ commit_p, commit_P, "0" ] }
     - { width: 5 }
     #2
     - { click: a, label: "A", swipe_up: "~", long_click: [ commit_a, commit_fulltilde, commit_A ] }
@@ -136,9 +136,9 @@ preset_keyboards:
       swipe_up: eisu_toggle_更多_dotSymbols_kb
       long_click: eisu_toggle_setting
       preview: false
-    - { click: commit_fullcomma, swipe_up: commit_fulldot, long_click: [ "，", "。", "！", "？", "：", "@", "……", send_Fancha ], preview: false, width: 10 }      
+    - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……", send_Fancha ], preview: false, width: 10 }      
     - { click: space, swipe_up: eisu_toggle_ABC_english, double_click: "。", width: 40, name: space ,preview: false }
-    - { click: send_semicolon_1, swipe_up: eisu_toggle_clip_board, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: slash, preview: false}
+    - { click: send_semicolon_1, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: semicolon, preview: false}
     - { click: return, width: 20, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
     width: 10
 
@@ -154,16 +154,16 @@ preset_keyboards:
       ] }    
     keys:
     #1
-    - { click: q, swipe_up: "%", long_click: [ Q, "%", q ] }
-    - { click: w, swipe_up: "+", long_click: [ W, "+", w ] }
-    - { click: e, swipe_up: "*", long_click: [ E, "*", e ] }
-    - { click: r, swipe_up: "&", long_click: [ R, "&", r ] }
-    - { click: t, swipe_up: "±", long_click: [ T, "±", t ] }
-    - { click: y, swipe_up: "×", long_click: [ Y, "×", y ] }
-    - { click: u, swipe_up: '\', long_click: [ U, '\', u ] }
-    - { click: i, swipe_up: "¥", long_click: [ I, "¥", I ] }
-    - { click: o, swipe_up: "°", long_click: [ O, "°", o ] }
-    - { click: p, swipe_up: "$", long_click: [ P, "$", p ] }
+    - { click: q, swipe_up: "1", long_click: [ Q, "1", q ] }
+    - { click: w, swipe_up: "2", long_click: [ W, "2", w ] }
+    - { click: e, swipe_up: "3", long_click: [ E, "3", e ] }
+    - { click: r, swipe_up: "4", long_click: [ R, "4", r ] }
+    - { click: t, swipe_up: "5", long_click: [ T, "5", t ] }
+    - { click: y, swipe_up: "6", long_click: [ Y, "6", y ] }
+    - { click: u, swipe_up: "7", long_click: [ U, "7", u ] }
+    - { click: i, swipe_up: "8", long_click: [ I, "8", I ] }
+    - { click: o, swipe_up: "9", long_click: [ O, "9", o ] }
+    - { click: p, swipe_up: "0", long_click: [ P, "0", p ] }
     - { width: 5 }
     #2
     - { click: a, swipe_up: "~", long_click: [ A, "~", a ] }
@@ -188,7 +188,44 @@ preset_keyboards:
     - { click: backspace, width: 15, name: backspace, swipe_up: function_keyboard_clearLeft, swipe_down: function_keyboard_undo}
     #4
     - { click: eisu_toggle_符_symbols,swipe_up: eisu_toggle_更多_dotSymbols_kb, width: 20, name: symbol }
-    - { click: commit_half_comma, swipe_up: send_dot, long_click: [ ",", ".", "!", "?", ":", "@" , "…", send_Fancha ], preview: false, width: 10 }
+    - { click: commit_half_comma, swipe_up: ".", long_click: [ ",", ".", "!", "?", ":", "@" , "…", send_Fancha ], preview: false, width: 10 }
     - { click: space, width: 40, swipe_up: eisu_toggle_Zh_default, name: space }
-    - { click: send_semicolon_1, swipe_up: eisu_toggle_clip_board, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: slash, preview: false}
+    - { click: send_semicolon_1, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: semicolon, preview: false}
     - { click: return, swipe_up: eisu_toggle_clip_board, width: 20, name: return, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next]}
+
+  number:
+    #。？！…（））；、～:[]ï`#：+*/×
+    __include: ./../public/preset_menu/default:/preset_menu/symbol_menu
+    ascii_mode: 1
+    name: number
+    preview: false
+    height: 46
+    width: 22
+    keys:
+    #1
+    # - {width: 1}
+    - { collection: ["+", "-", "×", "/", "%", "=", ",", "#", "?", ".", ":", "*" ], width: 17, height: 154, height_land: 110, row_height: 39, row_height_land: 35, row_vertical_gap: 3, show_row_back_image: false, name: table }
+    - { click: 1, height: 50 }
+    - { click: 2, height: 50 }
+    - { click: 3, height: 50 }
+    - { click: backspace, width: 17, height: 50, name: backspace, swipe_up: function_keyboard_clearAll, swipe_down: function_keyboard_undo }
+
+    # # #2
+    - { width: 17 }
+    - { click: 4, height: 50 }
+    - { click: 5, height: 50 }
+    - { click: 6, height: 50 }
+    - { click: send_dot, width: 17, height: 50, name: dot }
+
+    - { width: 17 }
+    - { click: 7, height: 50 }
+    - { click: 8, height: 50 }
+    - { click: 9, height: 50 }
+    - { click: send_equal, width: 17, height: 50, name: send_equal }
+
+    # - {width: 1}
+    - { click: eisu_toggle_符_dotsymbols, width: 17, height: 46, name: default }
+    - { click: eisu_toggle_返回_default, width: 22, height: 46 }
+    - { click: 0, height: 46 }
+    - { click: space, name: space, height: 46 }
+    - { click: return, name: return, width: 17, height: 46, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight,  function_keyboard_undo, function_keyboard_redo, next] }    
