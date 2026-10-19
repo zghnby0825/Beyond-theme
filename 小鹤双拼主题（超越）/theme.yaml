@@ -37,7 +37,7 @@ preset_keys:
   eisu_toggle_emoji_icon: { type: command, icon: "bq.svg", label: "emoji", send: Eisu_toggle, select: .emoji, option: [] }
 
 #自定义按钮
-  send_Fancha: { label: "反查", send: "`" } #小鹤音形反查
+  send_Fancha: { label: "`", send: "`" } #小鹤音形反查
   send_half_slash: { label: "/", send: "/" }
   send_fanxie: { label: '\', send: '\' }
   text_Tab_1: { label: "Tab", text: "	" } # 直接输入tab符号
@@ -132,7 +132,7 @@ preset_keyboards:
     - { click: backspace, width: 15, name: backspace, preview: false, swipe_up: function_keyboard_clearAll, swipe_down: function_keyboard_undo}
     #4
     - { click: eisu_toggle_符_symbols, swipe_up: eisu_toggle_更多_dotSymbols_kb,  long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], name: symbols, preview: false, width: 22 }
-    - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……" ], preview: false, width: 10 }
+    - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……", send_Fancha ], preview: false, width: 10 }
     - { click: space, swipe_up: eisu_toggle_ABC_english, double_click: "。", width: 43, name: space ,preview: false }
     - { click: return, width: 25, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
     
