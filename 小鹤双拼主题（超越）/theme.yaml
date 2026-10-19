@@ -131,9 +131,9 @@ preset_keyboards:
     - { click: m, label: "M", swipe_up: "…", long_click: [ commit_m, "…", commit_M ] }
     - { click: backspace, width: 15, name: backspace, preview: false, swipe_up: function_keyboard_clearAll, swipe_down: function_keyboard_undo}
     #4
-    - { click: eisu_toggle_符_symbols, swipe_up: eisu_toggle_更多_dotSymbols_kb,  long_click: [ eisu_toggle_setting, eisu_toggle_common_setting_board, function_rime_switcher ], name: symbols, preview: false, width: 22 }
-    - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……" ], preview: false, width: 13 }      
-    - { click: space, swipe_up: eisu_toggle_ABC_english, double_click: "。", width: 45, name: space ,preview: false }
+    - { click: eisu_toggle_符_symbols, swipe_up: eisu_toggle_更多_dotSymbols_kb,  long_click: [ eisu_toggle_setting, eisu_toggle_common_setting_board, function_rime_switcher ], name: symbols, preview: false, width: 25 }
+    - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……" ], preview: false, width: 10 }      
+    - { click: space, swipe_up: eisu_toggle_ABC_english, double_click: "。", width: 40, name: space ,preview: false }
     - { click: return, width: 25, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
     
   english:
@@ -181,9 +181,9 @@ preset_keyboards:
     - { click: m, swipe_up: "…", long_click: [ M, "…", m ] }
     - { click: backspace, width: 15, name: backspace, swipe_up: function_keyboard_clearLeft, swipe_down: function_keyboard_undo}
     #4
-    - { click: eisu_toggle_符_symbols, swipe_up: eisu_toggle_更多_dotSymbols_kb,  long_click: [ eisu_toggle_setting, eisu_toggle_common_setting_board, function_rime_switcher ], name: symbols, preview: false, width: 22 }
+    - { click: eisu_toggle_符_symbols, swipe_up: eisu_toggle_更多_dotSymbols_kb,  long_click: [ eisu_toggle_setting, eisu_toggle_common_setting_board, function_rime_switcher ], name: symbols, preview: false, width: 25 }
     - { click: commit_half_comma, swipe_up: ".", long_click: [ ",", ".", "!", "?", ":", "@" , "…", send_Fancha ], preview: false, width: 10 }    
-    - { click: space, swipe_up: eisu_toggle_ABC_english, double_click: "。", width: 45, name: space ,preview: false }
+    - { click: space, swipe_up: eisu_toggle_Zh_default, double_click: "。", width: 40, name: space ,preview: false }
     - { click: return, width: 25, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
 
   number:
