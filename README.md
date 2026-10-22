@@ -6,7 +6,7 @@
 
 [⬇️ 超越输入法 · 应用市场下载](https://appgallery.huawei.com/app/detail?id=app.flytype.hmos.bim&channelId=SHARE)
 
-<sub>📌 本分支 <code>小鹤双拼（超越）</code> 是 <b>小鹤双拼</b> 版；音形版见 <a href="https://github.com/zghnby0825/HarmonyNEXT_Rime_input_647Uni/tree/main">main 分支</a></sub>
+<sub>📌 本分支 <code>小鹤双拼（超越）</code> 是 <b>小鹤双拼</b> 版；音形版见 <a href="https://github.com/zghnby0825/Beyond-theme/tree/main">main 分支</a></sub>
 
 </div>
 
@@ -84,7 +84,7 @@
 ## 📁 目录结构
 
 ```
-HarmonyNEXT_Rime_input_647Uni/          # 分支 小鹤双拼（超越）
+Beyond-theme/                          # 分支 小鹤双拼（超越）
 ├─ 小鹤双拼主题（超越）/
 │  ├─ info.yaml                        # 主题信息（名称 / 作者 / 版本）
 │  ├─ theme.yaml                       # 核心：键盘布局 + 样式 + 配色 + 字体
@@ -96,6 +96,10 @@ HarmonyNEXT_Rime_input_647Uni/          # 分支 小鹤双拼（超越）
 ```
 
 ## 📝 更新记录
+
+### 2026-10-22
+
+- **仓库改名**：`HarmonyNEXT_Rime_input_647Uni` → `Beyond-theme`（GitHub 旧链接自动跳转，分支与 Releases 不受影响）
 
 ### 2026-10-20
 
