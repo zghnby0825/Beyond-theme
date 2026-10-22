@@ -1,5 +1,11 @@
-bottom_eisu_toggle_symbols_key:
+# 底栏数字/中英切换键可复用片段（T14、T26 等）
+# 用法示例：
+#   - __include: ./../public/preset_keyboards/bottom_func_keys:/bottom_number_key
+#     width: 13
+#     name: number
+#     preview: false
+
+bottom_123_key:
   click:
-    - { when: normal, send: eisu_toggle_符_symbols }
-    - { when: has_menu, send: text_halfcomma }
-    - { when: composing, send: send_Fancha }
+    - { when: normal, send: eisu_toggle_123_number }
+    - { when: composing, send: text_halfcomma }
