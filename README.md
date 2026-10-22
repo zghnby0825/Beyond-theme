@@ -130,7 +130,7 @@ Beyond-theme/                          # 分支 小鹤万象（超越）
 - **`themes_data` 恢复**：`t9_keys.yaml`（`1@.`）+ `bottom_func_keys.yaml`（本地 `bottom_123_key`），不再依赖公共片段
 - **效果图换成两张实机图**：`小鹤万象1.png`（九宫格）、`小鹤万象2.png`（全键盘）
 - **新增中文全键盘页** `english_Wx_keyboard`：中文状态下直接全键盘打字，`万/E` 一键回九宫格并联动 `wanxiang_t9`
-- **逗号键改为半角**：三页统一 `click: text_halfcomma`（点击出 `,`）；长按首项加反引号，后接「，。！？：@……」；旧的 `commit_fullcomma` 引用与 `send_Fancha` 一并清掉
+- **逗号键改为半角**：三页统一 `click: text_halfcomma`（点击出半角 `,`，键面也从「，」变 `,`；原来走 `commit_fullcomma` 上屏全角「，」）；长按首项加反引号，后接「，。！？：@……」，旧 `send_Fancha` 一并清掉
 
 ### 2026-10-22
 
