@@ -47,7 +47,7 @@
 
 ## 🚀 导入方法
 
-1. 下载本仓库（`Code` → `Download ZIP`，或 `git clone`），或直接到 [Releases](https://github.com/zghnby0825/HarmonyNEXT_Rime_input_647Uni/releases) 下载打包好的 `xhyx_1011.zip`
+1. 下载本仓库（`Code` → `Download ZIP`，或 `git clone`），或直接到 [Releases](https://github.com/zghnby0825/Beyond-theme/releases) 下载打包好的 `xhyx_1011.zip`
 2. 把主题文件夹 `小鹤主题` 压缩成 `.zip`
 3. 打开超越输入法 → 主题 → 导入，选择该 zip 即可
 
@@ -77,7 +77,7 @@
 ## 📁 目录结构
 
 ```
-HarmonyNEXT_Rime_input_647Uni/
+Beyond-theme/
 ├─ 小鹤主题/
 │  ├─ info.yaml                    # 主题信息（名称 / 作者 / 版本）
 │  ├─ theme.yaml                   # 核心：键盘布局 + 样式 + 配色 + 字体
@@ -89,6 +89,10 @@ HarmonyNEXT_Rime_input_647Uni/
 ```
 
 ## 📝 更新记录
+
+### 2026-10-22
+
+- **仓库改名**：`HarmonyNEXT_Rime_input_647Uni` → `Beyond-theme`（GitHub 旧链接自动跳转，分支与 Releases 不受影响）
 
 ### 2026-10-11
 
