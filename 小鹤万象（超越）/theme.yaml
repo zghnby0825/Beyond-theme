@@ -25,9 +25,9 @@ preset_keys:
   # 切到 wanxiang_EN方案（schema）
   eisu_toggle_schema_wanxiang_english: { label: "E", send: Eisu_toggle, select: wanxiang_english, option: schema }
   # 切到英文键盘页 english（万/E）
-  eisu_toggle_ABC_english: { label: "万/E", send: Eisu_toggle, select: english}
+  eisu_toggle_ABC_english_Wx: { label: "万/E", send: Eisu_toggle, select: english_Wx_keyboard }
   # 组合：万象英文+英文键盘
-  eisu_toggle_zh_en_default_schema_wanxiang_english: { label: "万/E", text: "{eisu_toggle_schema_wanxiang_english}{eisu_toggle_ABC_english}" }
+  eisu_toggle_zh_en_default_schema_wanxiang_english: { label: "万/E", text: "{eisu_toggle_schema_wanxiang_english}{eisu_toggle_ABC_english_Wx}" }
   # 切到 wanxiang方案（schema）
   eisu_toggle_schema_wanxiang: { label: "万", send: Eisu_toggle, select: wanxiang, option: schema }
   # 切到WX键盘页
@@ -200,6 +200,59 @@ preset_keyboards:
     - { click: eisu_toggle_zh_en_default_schema_wanxiang_english, width: 10, name: ABC ,preview: false }
     - { click: return, width: 20, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
 
+  english_Wx_keyboard:
+    height: 46
+    width: 10
+    preview: true
+    ascii_mode: 0
+    lock: true
+    name: english_keyboard
+    menu: { events: [
+      function_common_speech_recognition_icon, # 语音识别
+      eisu_toggle_emoji_icon,  # 表情选择器
+      eisu_toggle_clip_board_icon,      # 打开剪切板
+      eisu_toggle_Zh_default_icon      # 中英切换
+      ] }    
+    keys:
+    - { click: q, swipe_up: "1", long_click: [ Q, "1", q ] }
+    - { click: w, swipe_up: "2", long_click: [ W, "2", w ] }
+    - { click: e, swipe_up: "3", long_click: [ E, "3", e ] }
+    - { click: r, swipe_up: "4", long_click: [ R, "4", r ] }
+    - { click: t, swipe_up: "5", long_click: [ T, "5", t ] }
+    - { click: y, swipe_up: "6", long_click: [ Y, "6", y ] }
+    - { click: u, swipe_up: "7", long_click: [ U, "7", u ] }
+    - { click: i, swipe_up: "8", long_click: [ I, "8", I ] }
+    - { click: o, swipe_up: "9", long_click: [ O, "9", o ] }
+    - { click: p, swipe_up: "0", long_click: [ P, "0", p ] }
+    - { width: 5 }
+    #2
+    - { click: a, swipe_up: "~", long_click: [ A, "~", a ] }
+    - { click: s, swipe_up: "/", long_click: [ S, "/", s ] }
+    - { click: d, swipe_up: ":", long_click: [ D, ":", d ] }
+    - { click: f, swipe_up: ";", long_click: [ F, ";", f ] }
+    - { click: g, swipe_up: text_halfbracket_left, long_click: [ "(", G, g ] }
+    - { click: h, swipe_up: ")", long_click: [ H, ")", h ] }
+    - { click: j, swipe_up: "@", long_click: [ J, "@", j ] }
+    - { click: k, swipe_up: commit_halfbackslash, long_click: [ K, '\', k ] }
+    - { click: l, swipe_up: "”", long_click: [ L, "”", l ] }
+    - { width: 5 }
+    #3
+    - { click: shift, width: 15, name: shift }
+    - { click: z, swipe_up: "-", long_click: [ Z, "-", z ] }
+    - { click: x, swipe_up: "_", long_click: [ X, "_", x ] }
+    - { click: c, swipe_up: "#", long_click: [ C, "#", c ] }
+    - { click: v, swipe_up: "?", long_click: [ V, "?", v ] }
+    - { click: b, swipe_up: "!", long_click: [ B, "!", b ] }
+    - { click: n, swipe_up: "=", long_click: [ N, "=", n ] }
+    - { click: m, swipe_up: "…", long_click: [ M, "…", m ] }
+    - { click: backspace, width: 15, name: backspace, swipe_up: function_keyboard_clearLeft, swipe_down: function_keyboard_undo}
+    #4
+    - { click: eisu_toggle_符_symbols, swipe_up: eisu_toggle_更多_dotSymbols_kb,  long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], name: symbols, preview: false, width: 20 }
+    - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……", send_Fancha ], preview: false, width: 10 }
+    - { click: space, double_click: "。", width: 40, name: space ,preview: false }
+    - { click: eisu_toggle_en_zh_default_schema_default, width: 10, name: ABC ,preview: false }
+    - { click: return, width: 20, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
+
   english:
     height: 46
     width: 10
@@ -252,6 +305,7 @@ preset_keyboards:
     - { click: space, double_click: "。", width: 40, name: space ,preview: false }
     - { click: eisu_toggle_en_zh_default_schema_default, width: 10, name: ABC ,preview: false }
     - { click: return, width: 20, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
+
 
   number:
     #。？！…（））；、～:[]ï`#：+*/×
