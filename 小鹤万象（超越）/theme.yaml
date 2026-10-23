@@ -142,7 +142,6 @@ preset_keyboards:
       width: 12
       height: 46
       name: 123_key
-      swipe_down: eisu_toggle_toolbar_customize
     - { click: space, double_click: [{ send: "。", when: composing }], name: space, width: 42, height: 46 }
     - { click: eisu_toggle_wx_keyboard_schema_wanxiang,long_click: [eisu_toggle_common_setting_board, send_half_slash, function_rime_switcher], width: 12, height: 46 }
 
