@@ -5,7 +5,9 @@
   分支 <code>小鹤万象number（超越）</code> ｜ 主题文件夹 <code>小鹤万象number（超越）</code> ｜ 主题名 <code>万象主题(number)</code> ｜ v1.0.0
 </p>
 
-> 效果图待补（用真机截图后我再补进来）。
+<p align="center">
+  <img src="小鹤万象number.png" alt="小鹤万象number 主题效果图" width="88%">
+</p>
 
 ## 和「小鹤万象」的区别
 
