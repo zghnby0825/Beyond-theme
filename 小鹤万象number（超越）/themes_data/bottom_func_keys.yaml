@@ -1,0 +1,30 @@
+# 底栏数字/中英切换键可复用片段（T14、T26 等）
+# 用法示例：
+#   - __include: ./../public/preset_keyboards/bottom_func_keys:/bottom_number_key
+#     width: 13
+#     name: number
+#     preview: false
+
+bottom_halfcomma_key:
+  click:
+    - { when: normal, send: text_halfcomma }
+    - { when: has_menu, send: text_halfperiod }
+    - { when: composing, send: text_halfcomma }
+
+bottom_eisu_toggle_symbols_key:
+  click:
+    - { when: normal, send: eisu_toggle_符_symbols }
+    - { when: has_menu, send: text_halfcomma }
+    - { when: composing, send: send_Fancha }
+
+bottom_shift_key:
+  click:
+    - { when: normal, send: shift }
+    - { when: has_menu, send: text_halfcomma }
+    - { when: composing, send: text_Tab }
+
+bottom_Ch_En_key:
+  click:
+    - { when: normal, send: eisu_toggle_ABC_english }
+    - { when: has_menu, send: text_halfcomma }
+    - { when: composing, send: function_keyboard_clearAll_XX }
