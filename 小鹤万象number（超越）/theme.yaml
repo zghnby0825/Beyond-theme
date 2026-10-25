@@ -48,6 +48,7 @@ preset_keys:
   text_Control_Delete: { label: "Ctrl+Del", text: "{Control+Delete}" }
   text_Tab: { label: "tab", text: "{Tab}" } # 模拟tab健
   text_Tab_1: { label: "tab", text: "	" } # 直接输入tab符号
+  send_at: { label: "@", send: "@" } #数字键的@
 
 
   eisu_toggle_tool: {
@@ -249,7 +250,7 @@ preset_keyboards:
     - { click: text_halfcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……", "`" ], preview: false, width: 8 }
     - { click: space, double_click: "。", width: 34, name: space ,preview: false }
     - { click: send_half_slash, width: 8, name: slash, preview: false}
-    - { click: eisu_toggle_Zh_default, width: 10, name: ABC ,preview: false }
+    - { click: eisu_toggle_Zh_default, width: 10, name: ABC , preview: false }
     - { click: return, width: 15, name: return, swipe_up: select_second, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
 
   number:
@@ -281,13 +282,13 @@ preset_keyboards:
     - { click: 7 }
     - { click: 8 }
     - { click: 9 }
-    - { click: "@", width: 17, name: at }
+    - { click: send_at, width: 17, name: at }
 
     #4
     - { click: eisu_toggle_符_symbols, name: symbols, width: 17, height: 51 }
     - { click: eisu_toggle_返回_default, width: 22, height: 51, name: default }
-    - { click: send_dot, width: 22, height: 51 }
     - { click: 0, height: 51, width: 22 }
+    - { click: send_dot, width: 22, height: 51 }
     - { click: return, width: 17, height: 51 }
 
   symbols:
