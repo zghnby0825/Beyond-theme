@@ -274,20 +274,21 @@ preset_keyboards:
     - { click: 4 }
     - { click: 5 }
     - { click: 6 }
-    - { click: 0, width: 17, name: ling }
+    - { click: space, width: 17, name: space }
 
     #3
     - { width: 17 }
     - { click: 7 }
     - { click: 8 }
     - { click: 9 }
-    - { click: return, name: return, width: 17, height: 111, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight,  function_keyboard_undo, function_keyboard_redo, next] }
+    - { click: "@", width: 17, name: at }
 
     #4
-    - { click: eisu_toggle_返回_default, width: 17, height: 51, name: default }
+    - { click: eisu_toggle_符_symbols, name: symbols, width: 17, height: 51 }
+    - { click: eisu_toggle_返回_default, width: 22, height: 51, name: default }
     - { click: send_dot, width: 22, height: 51 }
-    - { click: space, name: space, height: 51, width: 44 }
-    - { width: 17 }
+    - { click: 0, height: 51, width: 22 }
+    - { click: return, width: 17, height: 51 }
 
   symbols:
 
