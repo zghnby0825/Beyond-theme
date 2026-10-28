@@ -42,6 +42,8 @@ preset_keys:
   send_fanxie: { label: '\', send: '\' }
   text_Tab_1: { label: "Tab", text: "	" } # 直接输入tab符号
   send_semicolon_1: { label: ";", send: ";" }
+  send_at: { label: "@", send: "@" } #数字键的@
+
 
   eisu_toggle_tool: {
     label: "tool",
@@ -215,17 +217,17 @@ preset_keyboards:
     - { click: 4, height: 50 }
     - { click: 5, height: 50 }
     - { click: 6, height: 50 }
-    - { click: send_dot, width: 17, height: 50, name: dot }
+    - { click: space, width: 17, height: 50, name: space }
 
     - { width: 17 }
     - { click: 7, height: 50 }
     - { click: 8, height: 50 }
     - { click: 9, height: 50 }
-    - { click: send_equal, width: 17, height: 50, name: send_equal }
+    - { click: send_at, width: 17, height: 50, name: send_at }
 
     # - {width: 1}
     - { click: eisu_toggle_符_dotsymbols, width: 17, height: 46, name: default }
     - { click: eisu_toggle_返回_default, width: 22, height: 46 }
     - { click: 0, height: 46 }
-    - { click: space, name: space, height: 46 }
+    - { click: send_dot, name: send_dot, height: 46 }
     - { click: return, name: return, width: 17, height: 46, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight,  function_keyboard_undo, function_keyboard_redo, next] }    
