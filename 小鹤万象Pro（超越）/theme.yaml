@@ -140,7 +140,7 @@ preset_keyboards:
       preview: false
     - { click: commit_fullcomma, swipe_up: ".", long_click: [ "，",  "。", "！", "？", "：", "@", "……", send_Fancha ], preview: false, width: 10 }      
     - { click: space, swipe_up: eisu_toggle_ABC_english, double_click: "。", width: 40, name: space ,preview: false }
-    - { click: send_semicolon_1, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: semicolon, preview: false}
+    - { click: send_half_slash, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: semicolon, preview: false}
     - { click: return, width: 20, name: return, swipe_up: eisu_toggle_clip_board, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next], rect_preview: true, preview: false }
     width: 10
 
@@ -192,7 +192,7 @@ preset_keyboards:
     - { click: eisu_toggle_符_symbols,swipe_up: eisu_toggle_更多_dotSymbols_kb, width: 20, name: symbol }
     - { click: commit_half_comma, swipe_up: ".", long_click: [ ",", ".", "!", "?", ":", "@" , "…", send_Fancha ], preview: false, width: 10 }
     - { click: space, width: 40, swipe_up: eisu_toggle_Zh_default, name: space }
-    - { click: send_semicolon_1, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: semicolon, preview: false}
+    - { click: send_half_slash, swipe_up: text_Tab_1, long_click: [ eisu_toggle_common_setting_board, function_rime_switcher ], width: 10, name: semicolon, preview: false}
     - { click: return, swipe_up: eisu_toggle_clip_board, width: 20, name: return, composing: confirm, long_click: [function_keyboard_clearAll, function_keyboard_clearLeft, function_keyboard_clearRight, function_keyboard_undo, function_keyboard_redo, next]}
 
   number:
