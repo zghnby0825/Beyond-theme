@@ -10,6 +10,10 @@
 
 </div>
 
+<p align="center">
+  <img src="小鹤万象Pro.png" width="88%" alt="小鹤万象Pro · 实际效果">
+</p>
+
 ## ✨ 主题特性
 
 - 🔢 **首排上滑数字** —— `Q`–`P` 上滑直接出 `1`–`0`，下滑出符号；长按候选里同样带数字，全键盘不用切页打字
@@ -72,12 +76,16 @@
 ## 📁 目录结构
 
 ```
-小鹤万象Pro（超越）/
-├─ info.yaml                       # 主题元信息（name / version / author）
-├─ theme.yaml                      # 键盘与配色主体
-├─ res/                            # 自制图标：yy 语音 · bq 表情 · jt 剪贴板 · To_Zh / To_En 中英切换
-└─ themes_data/
-   └─ bottom_func_keys.yaml        # 「?123」键的上下文行为
+Beyond-theme/                       # 分支 小鹤万象Pro（超越）
+├─ 小鹤万象Pro.png                  # 效果图（26 键主键盘实机截图）
+├─ SECURITY.md
+├─ README.md
+└─ 小鹤万象Pro（超越）/             # 主题文件夹（导入时选这个文件夹压成的 zip）
+   ├─ info.yaml                     # 主题元信息（name / version / author）
+   ├─ theme.yaml                    # 键盘与配色主体
+   ├─ res/                          # 自制图标：yy 语音 · bq 表情 · jt 剪贴板 · To_Zh / To_En 中英切换
+   └─ themes_data/
+      └─ bottom_func_keys.yaml      # 「?123」键的上下文行为
 ```
 
 ## 📝 更新记录
@@ -85,6 +93,7 @@
 ### 2026-11-05
 
 - **建立分支** `小鹤万象Pro（超越）`：把新的万象 Pro 主题（3 套键盘、35 / 35 / 20 键）纳入仓库，README 按实际布局编写
+- **加上效果图** `小鹤万象Pro.png`（实机截图 1316×875，26 键主键盘页），README 顶部按 88% 宽度展示
 
 ---
 
