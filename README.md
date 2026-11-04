@@ -1,8 +1,8 @@
 <div align="center">
 
-# 小鹤万象 · 超越输入法主题
+# 小鹤万象Base · 超越输入法主题
 
-**鸿蒙 NEXT ｜ 基于开源 Rime 引擎的「超越输入法」· 自用小鹤万象键盘主题（九宫格 + 全键盘）**
+**鸿蒙 NEXT ｜ 基于开源 Rime 引擎的「超越输入法」· 自用小鹤万象Base键盘主题（九宫格 + 全键盘）**
 
 [⬇️ 超越输入法 · 应用市场下载](https://appgallery.huawei.com/app/detail?id=app.flytype.hmos.bim&channelId=SHARE)
 
@@ -123,7 +123,7 @@ Beyond-theme/                          # 分支 小鹤万象Base（超越）
 
 ### 2026-11-05
 
-- **分支与主题文件夹改名**：`小鹤万象（超越）` → `小鹤万象Base（超越）`（GitHub 分支同步改名，旧名自动重定向）；README 的分支名、文件夹名、目录树一并更新
+- **分支与主题文件夹改名**：`小鹤万象（超越）` → `小鹤万象Base（超越）`（GitHub 分支同步改名，旧名自动重定向）；README 的分支名、文件夹名、目录树一并更新；`info.yaml` 的 `name` 与 README 主标题、副标题、页脚同步改为「小鹤万象Base」
 
 ### 2026-10-23
 
@@ -172,4 +172,4 @@ Beyond-theme/                          # 分支 小鹤万象Base（超越）
 
 ---
 
-<sub>适配超越输入法 5.4 ｜ 主题 `小鹤万象` v1.1.0 ｜ 作者 `_647Uni` ｜ 平台 `hmos`</sub>
+<sub>适配超越输入法 5.4 ｜ 主题 `小鹤万象Base` v1.1.0 ｜ 作者 `_647Uni` ｜ 平台 `hmos`</sub>
