@@ -6,7 +6,7 @@
 
 [⬇️ 超越输入法 · 应用市场下载](https://appgallery.huawei.com/app/detail?id=app.flytype.hmos.bim&channelId=SHARE)
 
-<sub>📌 本分支 <code>小鹤万象（超越）</code> 是 <b>小鹤万象</b> 版；音形版见 <a href="https://github.com/zghnby0825/Beyond-theme/tree/main">main 分支</a>，双拼版见 <code>小鹤双拼（超越）</code> 分支</sub>
+<sub>📌 本分支 <code>小鹤万象Base（超越）</code> 是 <b>小鹤万象</b> 版；音形版见 <a href="https://github.com/zghnby0825/Beyond-theme/tree/main">main 分支</a>，双拼版见 <code>小鹤双拼（超越）</code> 分支</sub>
 
 </div>
 
@@ -74,17 +74,17 @@
 
 ## 🚀 导入方法
 
-1. 下载本分支（`Code` → `Download ZIP`，或 `git clone -b 小鹤万象（超越）`）
-2. 把主题文件夹 `小鹤万象（超越）` 压缩成 `.zip`
+1. 下载本分支（`Code` → `Download ZIP`，或 `git clone -b 小鹤万象Base（超越）`）
+2. 把主题文件夹 `小鹤万象Base（超越）` 压缩成 `.zip`
 3. 打开超越输入法 → 主题 → 导入，选择该 zip 即可
 
 > `theme.yaml` 通过相对路径 `./../public/...` 继承输入法内置的公共资源（样式、字体、配色、公共按键、数字页菜单），请勿改动目录层级与这些路径。
 >
-> 主题文件夹 2026-10-22 由 `小鹤双拼主题（超越）` 改名为 `小鹤万象（超越）`；双拼版在 `小鹤双拼（超越）` 分支，音形版在 `main` 分支。
+> 主题文件夹 2026-10-22 由 `小鹤双拼主题（超越）` 改名为 `小鹤万象（超越）`，2026-11-05 再改名为 `小鹤万象Base（超越）`；双拼版在 `小鹤双拼（超越）` 分支，音形版在 `main` 分支。
 
 ## 🎛️ 想自己改？
 
-布局参数按页分别写在 `小鹤万象（超越）/theme.yaml` 的 `preset_keyboards:` 下：
+布局参数按页分别写在 `小鹤万象Base（超越）/theme.yaml` 的 `preset_keyboards:` 下：
 
 | 参数 | 作用 | 九宫格 `default` | 全键盘 `wx_keyboard` / `english` |
 | :-- | :-- | :-- | :-- |
@@ -106,8 +106,8 @@
 ## 📁 目录结构
 
 ```
-Beyond-theme/                          # 分支 小鹤万象（超越）
-├─ 小鹤万象（超越）/
+Beyond-theme/                          # 分支 小鹤万象Base（超越）
+├─ 小鹤万象Base（超越）/
 │  ├─ info.yaml                        # 主题信息（名称 / 作者 / 版本）
 │  ├─ theme.yaml                       # 核心：键盘布局 + 样式 + 配色 + 字体 + 自定义按键
 │  ├─ res/                             # 图标：yy 语音 · bq 表情 · jt 剪贴板 · To_Zh / To_En 中英切换
@@ -120,6 +120,10 @@ Beyond-theme/                          # 分支 小鹤万象（超越）
 ```
 
 ## 📝 更新记录
+
+### 2026-11-05
+
+- **分支与主题文件夹改名**：`小鹤万象（超越）` → `小鹤万象Base（超越）`（GitHub 分支同步改名，旧名自动重定向）；README 的分支名、文件夹名、目录树一并更新
 
 ### 2026-10-23
 
